@@ -1,0 +1,11 @@
+Virgin Money Giving API
+=======================
+
+A simple PHP class to pull in the total from any Virgin Money Giving page.
+
+Example Usage
+-------------
+
+$vmg = new VirginMoneyGiving('http://uk.virginmoneygiving.com/team/paulandrob');
+echo "Total is :".$vmg->getTotal();
+

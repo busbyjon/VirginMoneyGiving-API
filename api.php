@@ -74,10 +74,5 @@ class VirginMoneyGiving
 	
 }
 
-$vmg = new VirginMoneyGiving('http://uk.virginmoneygiving.com/fundraiser-web/fundraiser/showFundraiserProfilePage.action?userUrl=jonandtim&isTeam=true');
-echo "Total is :".$vmg->getTotal();
-
-$vmg = new VirginMoneyGiving('http://uk.virginmoneygiving.com/team/paulandrob');
-echo "Total is :".$vmg->getTotal();
 
 ?>
